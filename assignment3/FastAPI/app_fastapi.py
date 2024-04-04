@@ -38,6 +38,7 @@ def process(item: Item, pretty: bool = False):
         answer = prettify(answer)
     return answer
 
+
 @app.post('/dep')
 def process(item: Item, pretty: bool = False):
     doc = SpacyDocument(item.text)

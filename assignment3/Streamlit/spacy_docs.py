@@ -3,6 +3,7 @@ import spacy
 
 nlp = spacy.load("en_core_web_sm")
 
+
 class SpacyDocument:
 
     def __init__(self, text: str):
@@ -44,7 +45,6 @@ class SpacyDocument:
         for dependency in dependencies:
             buffer.write("\n\n\t" + ' '.join(dependency))
         return '<markup>%s</markup>' % buffer.getvalue()
-
 
 
 if __name__ == '__main__':
