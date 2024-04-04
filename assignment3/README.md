@@ -1,4 +1,4 @@
-Python 3.10.4
+Using Python 3.10.4 and Docker Desktop.
 
 ### FastAPI
 
@@ -8,7 +8,7 @@ docker build -t fastapi-nlp .
 docker compose up --build
 ```
 
-Navigate to localhost:8500
+Navigate to localhost:8500.
 
 Test the API with the following commands to the /dep and /ner routes. Ensure input.json has the correct content.
 
@@ -25,14 +25,14 @@ docker build -t streamlit-nlp .
 docker compose up --build
 ```
 
-Navigate to localhost:8501
+Navigate to localhost:8501.
 
 ### Flask
 
 ```
 cd assignment3\Flask
 docker build -t flask-nlp .
-docker compose up --build`
+docker compose up --build
 ```
 
-Navigate to localhost:5000
+Navigate to localhost:5000, see database functionality at bottom of processing page.
