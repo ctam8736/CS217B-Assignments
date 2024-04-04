@@ -1,0 +1,7 @@
+altair==4.2.2
+pandas==1.5.3
+spacy==3.4.3
+streamlit==1.21.0
+networkx
+graphviz
+Pillow
